@@ -12,8 +12,8 @@ import CoachNotes from "@/components/CoachNotes";
 import FinalRecommendation from "@/components/FinalRecommendation";
 
 export default function ClientPage() {
-  const params = useParams();          // ✅ CORRECT
-  const { id } = params;               // id is string
+  const params = useParams(); 
+  const { id } = params; 
 
   const client = clients.find(c => c.id === id);
 
